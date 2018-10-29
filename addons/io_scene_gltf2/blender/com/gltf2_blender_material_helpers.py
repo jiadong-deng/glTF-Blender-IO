@@ -13,9 +13,6 @@
 # limitations under the License.
 
 
-def get_pbr_node(node_tree):
-        pass
-
 def get_output_node(node_tree):
     output = [node for node in node_tree.nodes if node.type == 'OUTPUT_MATERIAL'][0]
     return output
